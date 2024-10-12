@@ -14,7 +14,11 @@ Primeros pasos
 npm run dev
 ```
 Se encuentran disponibles 2 rutas con sus respectivos endpoints, puediendose probar algunos endpoints con el explorador y todos los métodos con Postman o similar
-1. http://localhost:3000/api/denuncias con sus endpoints:
+1. http://localhost:3000/api/v1/auth
+   1. http://localhost:3000/api/v1/auth/register (registro de usuario)
+   2. http://localhost:3000/api/v1/auth/login (necesario para obtener el Token y asi poder usar los endpoints segurizados)
+   3. http://localhost:3000/api/v1/auth/login (necesario para obtener el Token y asi poder usar los endpoints segurizados)
+3. http://localhost:3000/api/v1/products
 
 Están creados los siguientes endpoints:
 
