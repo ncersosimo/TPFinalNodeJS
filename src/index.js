@@ -11,10 +11,6 @@ app.use(express.json())
 app.use("/api/v1/products", productsRouter);
 app.use("/api/v1/auth", authRouter);
 
-app.get('/', (req, res) => {
-  res.send('Hola, mundo!');
-});
-
 app.listen(PORT, (err) => {
     err ? console.log(`Server not running:${err}`)
         : console.log(`Server up: http://localhost:${PORT}`)
