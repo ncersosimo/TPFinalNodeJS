@@ -9,7 +9,9 @@ Primeros pasos
 
 1. Instalar node y npm
 
-2. para correrlo:
+2. Instalar los modulos con npm install
+
+3. para correrlo:
 
 ```
 npm run dev
