@@ -1,9 +1,6 @@
-# TPFinalNodeJS
+# Trabajo Práctico Final NodeJS
 
-crudSample
-==========
-
-Ejemplo de aplicación CRUD con node.js, mysql y angular
+Aplicación CRUD con NodeJS, MongoDB (usando mongoose para modelado de datos y capa intermedia entre Node y MongoDB) y JSON WEB Token
 
 Primeros pasos
 
@@ -16,7 +13,8 @@ Primeros pasos
 ```
 npm run dev
 ```
-Abrir un explorador en http://localhost:3000/api/denuncias
+Se encuentran disponibles 2 rutas con sus respectivos endpoints, puediendose probar algunos endpoints con el explorador y todos los métodos con Postman o similar
+1. http://localhost:3000/api/denuncias con sus endpoints:
 
 Están creados los siguientes endpoints:
 
